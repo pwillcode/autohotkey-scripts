@@ -31,6 +31,7 @@ locations["firstQueueColor"] := {"x": 790, "y": 855}
   Reload
 return
 
+; Note: this is an infinite loop. Use the Reload keybind to break out.
 ^l::
   craftLoop()
 return
